@@ -1,0 +1,12 @@
+.footer {
+  height: 40vh;
+  background-color: #00308f;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 30vh;
+  }
+}

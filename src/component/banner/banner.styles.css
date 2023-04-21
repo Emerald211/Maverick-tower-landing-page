@@ -1,0 +1,41 @@
+.banner-image{
+    background-image: url("../../assets/Rectangle\ 1.png");
+   justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-div{
+ z-index: 3;
+ position: relative;
+ top: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+   .banner-image img{
+    width: 320px;
+    height: 180px;
+    margin: 0 1rem !important;
+   }
+
+   .banner-image{
+    margin: 0 0rem;
+    display: flex;
+    justify-content: center;
+   }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner-image img{
+        width: 620px;
+        height: 280px;
+       
+       }
+    
+       .banner-image{
+        margin: 0 0rem;
+        display: flex;
+        justify-content: center;
+       }
+  }

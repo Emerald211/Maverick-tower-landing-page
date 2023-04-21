@@ -7,7 +7,7 @@ const Header = () => {
         Skyrocket Your Hotel Bookings with Our Proven Marketing SYSTEMS - Get
         50+ Direct Bookings in 90 Days!
       </h1>
-      <button className="header-button">Unlock my booking boost now</button>;
+      <button className="header-button">Unlock my booking boost now</button>
     </div>
   );
 };
